@@ -1,5 +1,12 @@
-let [, , ...numbers] = process.argv;
+let [,, ...numbers] = process.argv;
 
-const getSum = (total, currentNumber) => total + currentNumber;
+if(numbers.length === 0){
+  console.log(0);
+} else {
+  const getSum = (previousNum, currentNum) => +previousNum + +currentNum;
+  console.log(numbers.reduce(getSum));
+}
 
-console.log(numbers.reduce(getSum));
+
+
+
