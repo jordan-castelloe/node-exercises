@@ -1,4 +1,4 @@
-## Requirements
+## Assignments
 
 Create a JavaScript file to act as a Node.js program named `args.js`. This program
 should accept at least one number as a command-line argument. The arguments
@@ -29,3 +29,7 @@ $ ./args.js .1 .2
 [x]  As an alternative to `.filter`, use
     [ES6 Array Destructuring][array_dest] to access only the
     values needed from the arguments array
+
+## To Run
+- `` git clone ``
+- `` node arg.js ``
