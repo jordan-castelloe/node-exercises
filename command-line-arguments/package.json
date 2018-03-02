@@ -1,0 +1,19 @@
+{
+  "name": "file-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "bin": {
+    "arguments": "arg.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-file": "node arg.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "event-stream": "^3.3.4"
+  }
+}
