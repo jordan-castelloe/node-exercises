@@ -1,22 +1,9 @@
 #!/usr/bin/env node
 const file = process.argv[2];
 
-const {
-  createReadStream,
-  createWriteStream,
-} = require("fs")
+const {readFile} = require("fs");
 
-const {
-  Writable
-} = require("stream");
-
-const writeStream = Writable();
-
-
-writeStream._write = (buffer, _, next) => {
-  console.log(buffer.toString());
-  next();
-}
-
-createReadStream(file)
-.pipe(writeStream)
+readFile(file, (err, fileData) => {
+  if (err) throw err;
+  console.log(fileData.toString());
+});
