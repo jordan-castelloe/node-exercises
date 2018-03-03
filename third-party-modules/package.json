@@ -1,0 +1,20 @@
+{
+  "name": "file-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "bin": {
+    "something": "node flag.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-file": "node flag.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "event-stream": "^3.3.4"
+  }
+}
