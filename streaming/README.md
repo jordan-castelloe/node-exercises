@@ -40,7 +40,7 @@ $ cat 09_Caps.json
 
 ## To Run
 - `` git clone ``
-- `` chmod +x ./stream.js languages.json languages_caps.json``
+- `` chmod +x ./stream.js``
 - ``./stream.js languages.json languages_caps.json``
 - `` cat languages_caps.json ``
 - You should see the languages in all capital letters!
