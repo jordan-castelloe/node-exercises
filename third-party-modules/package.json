@@ -4,16 +4,17 @@
   "description": "",
   "main": "",
   "bin": {
-    "arguments": "arg.js"
+    "something": "node flag.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "read-file": "node arg.js"
+    "read-file": "node flag.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.3.2",
     "event-stream": "^3.3.4"
   }
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+ 
 let [,, ...numbers] = process.argv;
 
 if(numbers.length === 0){
