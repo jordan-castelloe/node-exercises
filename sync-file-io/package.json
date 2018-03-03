@@ -4,11 +4,11 @@
   "description": "",
   "main": "",
   "bin": {
-    "something": "node global.js"
+    "something": "node file-io.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "read-file": "node global.js"
+    "read-file": "node file-io.js"
   },
   "keywords": [],
   "author": "",
