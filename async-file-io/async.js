@@ -13,7 +13,6 @@ const {
 const writeStream = Writable();
 
 
-// writefile accepts file name, chunk of data, and callback function
 writeStream._write = (buffer, _, next) => {
   console.log(buffer.toString());
   next();
