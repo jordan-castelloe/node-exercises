@@ -6,4 +6,4 @@
 1. [Version Manager](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/04-nodejs_versions.md)
 1. [Command Line Arguments](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/05-command_arguments.md)
 1. [Third Party Modules (Flag Exercise)](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/06-third_party_modules.md)
-1. 
+1. [Sync File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/07-file_io.md)
