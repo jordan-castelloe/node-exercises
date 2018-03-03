@@ -4,11 +4,11 @@
   "description": "",
   "main": "",
   "bin": {
-    "something": "node file-io.js"
+    "something": "async.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "read-file": "node file-io.js"
+    "read-file": "node async.js"
   },
   "keywords": [],
   "author": "",

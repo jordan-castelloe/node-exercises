@@ -7,3 +7,4 @@
 1. [Command Line Arguments](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/05-command_arguments.md)
 1. [Third Party Modules (Flag Exercise)](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/06-third_party_modules.md)
 1. [Sync File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/07-file_io.md)
+1. [Async File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/08-async_file_io.md)
