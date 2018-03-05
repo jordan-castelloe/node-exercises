@@ -9,3 +9,5 @@
 1. [Sync File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/07-file_io.md)
 1. [Async File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/08-async_file_io.md)
 1. [Streaming File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/09-streaming-io.md)
+1. [ERD](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/10-relational-databases-ERD.md)
+1. [SQL Queries](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/11-sql_queries_01.md)
