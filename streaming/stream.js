@@ -31,3 +31,4 @@ writeStream._write = (buffer, _, next) => {
 createReadStream(readFile)
 .pipe(capitalize)
 .pipe(writeStream)
+
