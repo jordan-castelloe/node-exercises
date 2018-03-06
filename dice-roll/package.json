@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "read-file": "node bin/diceroll"
+    "read-file": "node bin/diceroll",
+    "start": "nodemon bin/diceroll"
   },
   "keywords": [],
   "author": "",

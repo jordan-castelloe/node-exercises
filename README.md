@@ -11,3 +11,4 @@
 1. [Streaming File Io](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/09-streaming-io.md)
 1. [ERD](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/10-relational-databases-ERD.md)
 1. [SQL Queries](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/11-sql_queries_01.md)
+1. [Dice Roll](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/14-modularity-diceroll.md)

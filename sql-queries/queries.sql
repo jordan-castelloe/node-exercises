@@ -25,9 +25,11 @@ WHERE Artist.ArtistName = "Dolly Parton"
 -- SELECT a.Title, s.Title FROM Song s LEFT JOIN Album a ON s.AlbumId = a.AlbumId;
 
 -- Write a SELECT statement to display how many songs exist for each album. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
-SELECT Album.Title, COUNT(Song.AlbumId) FROM Album, Song
-WHERE Song.AlbumId = Album.AlbumId
+SELECT Album.Title, COUNT(Song.SongId) FROM Album
+JOIN Song
+ON Song.AlbumId = Album.AlbumId
 GROUP BY Album.Title
+
 -- Write a SELECT statement to display how many songs exist for each artist. You'll need to use the COUNT() function and the GROUP BY keyword sequence.
 SELECT ar.ArtistName 'Artist', COUNT(s.ArtistId) 'Song Count'
 FROM Artist ar, Song s
@@ -51,3 +53,12 @@ FROM Song s
 SELECT s.Title 'Song', MAX(s.SongLength) 'Duration', a.Title 'Album'
 FROM Song s, Album a
 WHERE s.AlbumId = a.AlbumId
+
+
+
+-- INSERT INTO Song(Title, SongLength, ReleaseDate, GenreId, ArtistId, AlbumId)
+-- SELECT "second Sight", 5768, 1986, g.GenreId, ar.artistId, al.AlbumId
+-- FROM Artist ar, Genre g, Album al
+-- WHERE ar.ArtistName = "The Model Citizens"
+-- and g.Label = "Rock"
+-- and al.Title = "Georgetown Station"
