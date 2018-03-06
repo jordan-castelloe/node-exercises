@@ -71,3 +71,15 @@ $ diceroll 20
 $ diceroll 2 100
 100 # Result of 2 rolls of a 100 sided dice: i.e. random integer 2 - 200
 ```
+
+
+
+## To Run Globally
+- `` git clone ``
+- `` npm install -g``
+- `` diceroll 2 100``
+
+## To Run Locally
+- `` git clone ``
+- `` chmod +x bin/diceroll ``
+- `` diceroll 2 100 ``
