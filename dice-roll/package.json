@@ -1,0 +1,16 @@
+{
+  "name": "dice-roll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/diceroll",
+  "bin": {
+    "diceroll": "bin/diceroll"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-file": "node bin/diceroll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
