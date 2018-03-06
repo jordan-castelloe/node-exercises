@@ -2,9 +2,9 @@
   "name": "dice-roll",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/diceroll",
+  "main": "./bin/diceroll",
   "bin": {
-    "diceroll": "bin/diceroll"
+    "diceroll": "./bin/diceroll"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

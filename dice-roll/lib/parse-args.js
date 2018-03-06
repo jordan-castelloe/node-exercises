@@ -5,6 +5,7 @@ module.exports = (args) => {
 
 let count = null;
 let sides = null;
+
 // if there are no arguments passed in, roll one six-sided dice
 if(args.length === 0){
   count = 1;
