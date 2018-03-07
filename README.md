@@ -12,3 +12,4 @@
 1. [ERD](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/10-relational-databases-ERD.md)
 1. [SQL Queries](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/11-sql_queries_01.md)
 1. [Dice Roll](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/14-modularity-diceroll.md)
+1. [Testing](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/15-testing-101.md)

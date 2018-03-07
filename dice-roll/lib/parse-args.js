@@ -17,7 +17,7 @@ if(args.length === 0){
   count = args[0];
   sides = args[1];
 } else {
-  console.log("Please pass in no more than two numbers!")
+  return console.log("Please pass in no more than two numbers!")
 }
 
 let dice = {count, sides};
