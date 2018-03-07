@@ -1,17 +1,27 @@
 {
-  "name": "dice-roll",
+  "name": "node-diceroll-testing-joeshep",
   "version": "1.0.0",
   "description": "",
-  "main": "./bin/diceroll",
+  "main": "index.js",
   "bin": {
-    "diceroll": "./bin/diceroll"
+    "diceroll": "bin/diceroll"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "read-file": "node bin/diceroll",
-    "start": "nodemon bin/diceroll"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nss-day-cohort-17/node-diceroll-testing-joeshep.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Joe Shep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nss-day-cohort-17/node-diceroll-testing-joeshep/issues"
+  },
+  "homepage": "https://github.com/nss-day-cohort-17/node-diceroll-testing-joeshep#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  },
+  "scripts": {
+    "test": "mocha -R nyan --watch"
+  }
 }
