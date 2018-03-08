@@ -1,0 +1,23 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "bin": {
+    "calculate": "calc/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Joe Shep",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  },
+  "scripts": {
+    "test": "mocha -R nyan --watch"
+  }
+}
