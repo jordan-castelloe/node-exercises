@@ -4,7 +4,7 @@
   "description": "",
   "main": "calculator.js",
   "bin": {
-    "calculate": "calculator.js"
+    "calculate": "calc/main.js"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,4 @@
+#!/usr/bin / env node
 
 let operator = process.argv[2];
 let numOne = +process.argv[3];
@@ -11,7 +12,7 @@ const calculate = (operator, numOne, numTwo) => {
     operator = require('./add');
   } else if (operator == "subtract"){
     operator = require('./subtract');
-  } else if (operator == "./divide"){
+  } else if (operator == "divide"){
     operator = require('./divide');
   } else if (operator == "multiply"){
     operator = require('./multiply');
