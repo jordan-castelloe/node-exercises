@@ -3,7 +3,7 @@
 const { createTables } = require('../scripts/makeTable');
 const { assert: { notPropertyVal } } = require('chai');
 const removeToy = require('../scripts/removeToys');
-const listAll = require('../scripts/listAllKids')
+const listByName = require('../scripts/listByName')
 
 describe('removing toys from the database', () => {
   afterEach((done) => {
@@ -13,14 +13,16 @@ describe('removing toys from the database', () => {
       })
   })
   it('should remove toy from the database', () => {
-    let toyId = 3;
-    return removeToy(toyId)
+    let toy = "doll";
+    let name = "Tanya";
+    return removeToy(name, toy)
     .then(data => {
-      return listAll();
+      return listByName(name);
     })
-    .then(allToys => {
-      allToys.forEach(toy => {
-        notPropertyVal(toy, 'toy_id', toyId);
+    .then(toys => {
+      toys.forEach(toy => {
+        notPropertyVal(toy, 'name', name);
+        notPropertyVal(toy, 'toy', toy);
       });
     })
   })

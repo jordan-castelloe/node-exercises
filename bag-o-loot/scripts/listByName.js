@@ -8,6 +8,8 @@ module.exports = (name) => {
   return new Promise((resolve, reject) => {
     db.all(`SELECT * FROM toys WHERE name="${name}"`,
       (error, data) => {
+        console.log(`These are all of ${name}'s toys:`);
+        console.log(data);
         resolve(data);
       })
   })

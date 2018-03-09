@@ -1,6 +1,6 @@
 // Must be able to list all toys for a given child's name.
 const { assert: { isObject, isArray, propertyVal } } = require('chai');
-const listByName = require('../scripts/listOneKidsToys');
+const listByName = require('../scripts/listByName');
 const listAll = require('../scripts/listAllKids.js');
 
 describe('List all the toys from a single kid', () => {

@@ -6,6 +6,7 @@ module.exports = (toy, name) => {
   return new Promise((resolve, reject) => {
     db.run(`INSERT INTO toys VALUES (null, "${toy}", "${name}", 0, 0)`,
       function(error, data){
+        console.log(`You added ${toy} to ${name}'s bag!`)
         resolve({id: this.lastID})
       }
     )

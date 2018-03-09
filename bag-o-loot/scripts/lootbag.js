@@ -2,9 +2,13 @@
 [,, ...args] = process.argv;
 const add = require('./addToy');
 const remove = require('./removeToys');
-const listKid = require('./listOneKidsToys');
+const listByName = require('./listByName');
 const list = require('./listAllKids');
 const setDeliveryStatus = require('./deliveryStatus');
+let toy = null;
+let name = null;
+
+console.log("args", args);
 
 const printInstructions = () => {
   console.log("Instructions!");
@@ -12,24 +16,24 @@ const printInstructions = () => {
 
 switch (args[0]) {
   case "add":
-    let toy = args[1];
-    let name = args[2];
+    toy = args[1];
+    name = args[2];
     add(toy, name);
     break;
   case "remove":
-    let name = arg[1];
-    let toy = arg[2];
+    name = args[1];
+    toy = args[2];
     remove(name, toy);
     break;
   case "ls":
-   if(arg[1]){
-     let name = arg[1];
-     listKid(name);
+   if(args.length > 1){
+     name = args[1];
+     listByName(name);
    } else {
      list();
    }
   case "delivered":
-    let name = arg[1];
+    name = args[1];
     setDeliveryStatus(name);
     break;
   default:

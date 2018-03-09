@@ -2,7 +2,7 @@
 const { createTables } = require('../scripts/makeTable');
 const { assert: {propertyVal} } = require('chai');
 const setDeliveryStatus= require('../scripts/deliveryStatus')
-const listByName = require('../scripts/listOneKidsToys');
+const listByName = require('../scripts/listByName');
 
 describe('Setting a toy as delivered', () => {
   let name = 'Sarah';
