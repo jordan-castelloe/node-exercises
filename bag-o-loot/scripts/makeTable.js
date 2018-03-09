@@ -2,7 +2,7 @@
 
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('bag-o-loot.sqlite');
-const toyData = require('./data/toyData');
+const toyData = require('../data/toyData');
 
 const insertRows = () => {
   return Promise.all(toyData.map(({ toy, name, delivered }) => {
