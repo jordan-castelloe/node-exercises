@@ -8,7 +8,7 @@ const insertRows = () => {
   return Promise.all(toyData.map(({ toy, name, delivered }) => {
     return new Promise((resolve, reject) => {
       db.run(`INSERT INTO toys VALUES (null, "${toy}", "${name}", ${delivered})`,
-        function (err) { //THIS IS WHERE THE CALLBACK STARTS
+        function (err) { 
           if (err) return reject(err);
           resolve(this.lastID)
         })
@@ -21,7 +21,7 @@ module.exports.createTables = () => {
     db.run('DROP TABLE IF EXISTS toys')
       .run(
         'CREATE TABLE IF NOT EXISTS toys (toy_id INTEGER PRIMARY KEY, toy TEXT, name TEXT, delivered INTEGER)',
-        (err) => { //THIS IS WHERE THE CALLBACK STARTS
+        (err) => { 
           if (err) return reject(err)
           resolve(insertRows())
         }
