@@ -14,3 +14,4 @@
 1. [Dice Roll](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/14-modularity-diceroll.md)
 1. [Testing](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/15-testing-101.md)
 1. [TDD](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/16-tdd-first-steps.md)
+1. [Bag-O-Loot](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/17-tdd_bag-o-loot.md)
