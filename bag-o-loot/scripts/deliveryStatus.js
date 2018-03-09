@@ -5,7 +5,6 @@ module.exports = (name) => {
   return new Promise((resolve, reject) => {
     db.run(`UPDATE toys SET delivered=1 WHERE name="${name}"`,
       function (error, data) {
-        console.log(`All of ${name}'s toys are delivered!`)
         resolve(data);
       }
     )

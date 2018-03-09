@@ -10,9 +10,6 @@ module.exports = () => {
   return new Promise ((resolve, reject) => {
   db.all(`SELECT * FROM toys ORDER BY name`, 
     (error, data) => {
-      data.forEach(toyData => {
-        console.log(`${toyData.name} is getting a ${toyData.toy}!`)
-      })
       resolve(data);
     })  
   })

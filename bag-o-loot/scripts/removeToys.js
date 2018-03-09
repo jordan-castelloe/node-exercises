@@ -10,7 +10,6 @@ module.exports = (name, toy) => {
         if(error){
           return console.log('error!', error);
         }
-        console.log(`You removed ${toy} from ${name}'s bag!`)
         resolve();
       });
   })
