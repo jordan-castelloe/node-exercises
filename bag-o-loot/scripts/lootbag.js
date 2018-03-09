@@ -5,11 +5,18 @@ const remove = require('./removeToys');
 const listByName = require('./listByName');
 const list = require('./listAllKids');
 const setDeliveryStatus = require('./deliveryStatus');
+
 let toy = null;
 let name = null;
 
 const printInstructions = () => {
-  console.log("Instructions!");
+  console.log("Ho ho ho! It's me, Santa Claus! Definitely me. I'm in your computer.");
+  console.log("Here are some commands you can give me:");
+  console.log(" - Type 'add kite Suzy' to add a kite to Suzy's bag.");
+  console.log(" - Type 'remove kite Suzy' to remove a kite from Suzy's bag.");
+  console.log(" - Type 'ls' to see all of the kids who are getting gifts.");
+  console.log(" - Type 'ls Suzy' to see all of the toys Suzy is getting.");
+  console.log(" - Type 'delivered Suzy' when you've delivered all of Suzy's gifts.");
 }
 
 switch (args[0]) {
