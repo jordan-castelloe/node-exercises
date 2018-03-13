@@ -15,3 +15,5 @@
 1. [Testing](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/15-testing-101.md)
 1. [TDD](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/16-tdd-first-steps.md)
 1. [Bag-O-Loot](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/17-tdd_bag-o-loot.md)
+1. [Http Server](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/19-http-server.md)
+1. [Express Hello World](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/20-express-hello-world.md)

@@ -14,7 +14,6 @@ app.get('/', (req, res) => {
 
 app.get('/time', (req, res) => {
   let time = getTime();
-  console.log("time", time);
   res.send(time)
 });
 
