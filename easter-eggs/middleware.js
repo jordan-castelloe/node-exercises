@@ -41,7 +41,7 @@ animalRouter.get("/eggs", (req, res, next) => {
   res.sendFile(__dirname + '/public/see-our-eggs.html');
 })
 
-animalRouter.get("/", (req, res, next) => {
+animalRouter.get("/home", (req, res, next) => {
   res.sendFile(__dirname + '/public/index.html');
 })
 

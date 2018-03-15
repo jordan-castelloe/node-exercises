@@ -38,5 +38,11 @@ You found the Easter Egg at Mon Sep 12 2016 15:36:57 GMT-0500 (CDT)
 ```
 Experiment with where in your file you place the middelware functions. Does it make a difference if one comes before the other? What if they run before or after you tell Express where to find your static files?
 
-
+## To Run
+- `` git clone ``
+- `` npm install ``
+-  `` node app.js  ``
+- In your browser, go to ``localhost:8080/animals/home`` and you should see a home page.
+- In your browser, go to ``localhost:8080/animals/chickens`` and you should see the chickens page.
+- In your browser, go to ``localhost:8080/animals/eggs`` and you should see teh eggs page PLUS an egg in your terminal console.
 
