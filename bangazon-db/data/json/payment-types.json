@@ -1,0 +1,13 @@
+{
+  "paymentTypes": [
+    {
+      "name": "Visa"
+    },
+    {
+      "name": "MasterCard"
+    },
+    {
+      "name": "American Express"
+    }
+  ]
+}
