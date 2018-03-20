@@ -18,3 +18,5 @@
 1. [Http Server](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/19-http-server.md)
 1. [Express Hello World](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/20-express-hello-world.md)
 1. [Express Routing with Easter Eggs](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/21-express-middleware.md)
+1. Bangazon ERD
+1. Bangazon Database with Faker Dummy Data
