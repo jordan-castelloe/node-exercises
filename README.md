@@ -20,3 +20,4 @@
 1. [Express Routing with Easter Eggs](https://github.com/nashville-software-school/bangazon-corp/blob/master/orientation/resources/21-express-middleware.md)
 1. Bangazon ERD
 1. Bangazon Database with Faker Dummy Data
+1. Chinook ERD (saves a .png file in the root folder)
