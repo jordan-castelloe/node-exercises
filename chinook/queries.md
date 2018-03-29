@@ -1,6 +1,7 @@
 ## SQL Queries for the Chinook Database
 
 1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
+
 ```
 SELECT FirstName || " " || LastName AS "Full Name", Country, CustomerId FROM Customer WHERE Country != "USA"
 ```
@@ -88,7 +89,8 @@ JOIN Track ON InvoiceLine.TrackId = Track.TrackId
 
 12. Provide a query that includes the purchased track name AND artist name with each invoice line item.
 ```
-SELECT InvoiceLine.*, Track.Name as "Track Name", Artist.Name AS "Artist Name" FROM InvoiceLine JOIN Track ON InvoiceLine.TrackId = Track.TrackId JOIN Album ON Track.AlbumId = Album.AlbumId JOIN Artist ON Album.ArtistId = Artist.ArtistId``
+SELECT InvoiceLine.*, Track.Name as "Track Name", Artist.Name AS "Artist Name" FROM InvoiceLine JOIN Track ON InvoiceLine.TrackId = Track.TrackId JOIN Album ON Track.AlbumId = Album.AlbumId JOIN Artist ON Album.ArtistId = Artist.ArtistId
+```
 
 13. Provide a query that shows the # of invoices per country. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
 ```
@@ -98,7 +100,6 @@ GROUP BY BillingCountry
 ```
 
 
-// GO BACK AND DOUBLE CHECK THIS ONE!
 14. Provide a query that shows the total number of tracks in each playlist. The Playlist name should be included on the resultant table.
 ```
 SELECT Count(*) AS "Number of Songs", Playlist.Name AS "Playlist Name" 
