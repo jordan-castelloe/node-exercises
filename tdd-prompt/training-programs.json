@@ -1,0 +1,52 @@
+{
+  "trainingPrograms": [
+    {
+      "program_name": "How to Interview",
+      "start_date": "2018-3-20",
+      "end_date": "2018-7-26",
+      "max_attendees": 40
+    },
+    {
+      "program_name": "Acing the White Board Challenge",
+      "start_date": "2018-9-11",
+      "end_date": "2019-3-1",
+      "max_attendees": 77
+    },
+    {
+      "program_name": "Being a Great Person",
+      "start_date": "2018-6-21",
+      "end_date": "2019-1-19",
+      "max_attendees": 61
+    },
+    {
+      "program_name": "Totally Slaying at Everything",
+      "start_date": "2018-3-20",
+      "end_date": "2018-6-21",
+      "max_attendees": 29
+    },
+    {
+      "program_name": "Living Your Dreams",
+      "start_date": "2018-9-21",
+      "end_date": "2019-3-8",
+      "max_attendees": 83
+    },
+    {
+      "program_name": "Fulfilling The Life Or Death Prophecy That Was Made About You When You Were Born",
+      "start_date": "2018-3-20",
+      "end_date": "2018-11-17",
+      "max_attendees": 78
+    },
+    {
+      "program_name": "Don't Litter",
+      "start_date": "2019-1-1",
+      "end_date": "2019-6-9",
+      "max_attendees": 44
+    },
+    {
+      "program_name": "Flossing Your Teeth",
+      "start_date": "2018-4-1",
+      "end_date": "2018-4-17",
+      "max_attendees": 64
+    }
+  ]
+}
