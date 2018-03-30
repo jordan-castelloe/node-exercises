@@ -25,6 +25,7 @@ describe("model", () => {
       return getAllPrograms()
       .then(programs => {
         equal(programs[programs.length-1].program_id, testId);
+        buildDatabase(); // rebuilds db every time test suite finishes
       });
     });
   });
